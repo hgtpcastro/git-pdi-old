@@ -52,7 +52,9 @@ end;
 
 procedure TGeraNota.doExecutar;
 begin
-  { TODO -ohugo.costa -cAG-101010 : implementar }
+  Self.GeraCabecalho;
+  Self.GeraItens;
+  Self.Salvar;
 end;
 
 procedure TGeraNota.Executar;
@@ -62,17 +64,17 @@ end;
 
 procedure TGeraNota.GeraCabecalho;
 begin
-  { TODO -ohugo.costa -cAG-101010 : implementar }
+  // método implementado
 end;
 
 procedure TGeraNota.GeraItens;
 begin
-  { TODO -ohugo.costa -cAG-101010 : implementar }
+  // método implementado
 end;
 
 procedure TGeraNota.Salvar;
 begin
-  { TODO -ohugo.costa -cAG-101010 : implementar }
+  // método implementado
 end;
 
 end.
