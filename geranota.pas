@@ -73,8 +73,10 @@ begin
 end;
 
 procedure TGeraNota.Salvar;
+var
+  cDiretorio: string;
 begin
-  // método implementado
+  // método implementado  
 end;
 
 end.
